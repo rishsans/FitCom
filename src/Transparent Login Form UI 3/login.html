@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Sign In</title>
+      <link rel="stylesheet" href="login.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="bg-img">
+         <div class="content">
+            <header>Sign Up</header>
+            <form action="#">
+               <div class="field">
+                  <span class="fa fa-user"></span>
+                  <input type="text" required placeholder="Email or Phone Number">
+               </div>
+               <div class="field space">
+                  <span class="fa fa-lock"></span>
+                  <input type="password" class="pass-key" required placeholder="Password">
+                  <span class="show">SHOW</span>
+               </div>
+               <div class="pass">
+                  <a href="#">Forgot Password?</a>
+               </div>
+               <div class="field">
+                  <input type="submit" value="Sumbit">
+               </div>
+            </form>
+            <div class="login">
+               Or Sign-in with
+            </div>
+
+            <div class="links">
+               <div class="google">
+                  <button class="social-signin google" id='login'>Log in with Google+</button>
+               </div>
+            </div>
+              
+           
+         </div>
+      </div>
+      <script>
+         const pass_field = document.querySelector('.pass-key');
+         const showBtn = document.querySelector('.show');
+         showBtn.addEventListener('click', function(){
+          if(pass_field.type === "password"){
+            pass_field.type = "text";
+            showBtn.textContent = "HIDE";
+            showBtn.style.color = "#3498db";
+          }else{
+            pass_field.type = "password";
+            showBtn.textContent = "SHOW";
+            showBtn.style.color = "#222";
+          }
+         });
+      </script>
+   </body>
+
+   
+
+
+   <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+      import { getAuth ,GoogleAuthProvider, signInWithRedirect, getRedirectResult, signInWithPopup, signOut } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
+
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDjh8221Bo7XhH76xBW8o-Bzhgw_k21nao",
+        authDomain: "fitcom-56201.firebaseapp.com",
+        projectId: "fitcom-56201",
+        storageBucket: "fitcom-56201.appspot.com",
+        messagingSenderId: "457010428697",
+        appId: "1:457010428697:web:88095242a00fe331ab6388",
+        measurementId: "G-9TH5071J6S"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      const auth = getAuth(app);
+      const provider = new GoogleAuthProvider(app);
+
+      login.addEventListener('click',(e) => {// sign in with popup tab
+         signInWithPopup(auth, provider)
+         .then((result) => {
+            // This gives you a Google Access Token. You can use it to access the Google API.
+            const credential = GoogleAuthProvider.credentialFromResult(result);
+            const token = credential.accessToken;
+            // The signed-in user info.
+            const user = result.user;
+
+
+         alert(user.displayName);
+         // ...
+      }).catch((error) => {
+         // Handle Errors here.
+         const errorCode = error.code;
+         const errorMessage = error.message;
+         // The email of the user's account used.
+         const email = error.email;
+          // The AuthCredential type that was used.
+         const credential = GoogleAuthProvider.credentialFromError(error);
+         // ...
+
+          alert(errorMessage);
+      });
+   });
+
+
+    </script>
+
+</html>
+ 
