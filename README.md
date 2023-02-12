@@ -20,12 +20,18 @@ It's a  web app that keeps you enthralled while you commute by gamifying your jo
 </p> 
   
 <h2>🧐 Features</h2>
+<img align="right" width="200" height="200" src="https://www.linkpicture.com/q/logo_560.png">
+
 
 Here're some of the project's best features:
 
-*   Hear soothing music in the background to relax your nerves
-*   Feeling Depressed? Want to get some Inspiration? Head over to Motivation section to get some insights from the playlist especially curated for you
-*   Do you feel Lonely? Need someone to talk to? Then Moodle our chatbot is waiting for you in the chatbot section to have an interesting conversation
+*  Gamification
+*  Choose Avatars
+*  Promoting Sustainable Commute
+*  Vehicle Detection
+*  Carbon Footprint Calculator
+*  Leaderboard
+*  Rewards
 
   
   
