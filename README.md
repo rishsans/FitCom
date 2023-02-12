@@ -34,8 +34,9 @@ Here're some of the project's best features:
 *  Rewards
 
   
- <h2>🚀 Demo</h2>
-
+ <h2>🚀How to use FitCom? </h2>
+ 
+<p id="description">Watch our demo video to go through the crux of our Idea or, watch it on youtube at https://youtu.be/ofH2d50hoi0</p>
 
 https://user-images.githubusercontent.com/98217912/218312483-8925acd7-513c-4e21-8e47-4ec75fbc5a91.mp4
 
@@ -54,7 +55,7 @@ Technologies used in the project:
 *   Firebase
 *   webpack
 *   Tailwind CSS
-*   
+ 
 
 
 
