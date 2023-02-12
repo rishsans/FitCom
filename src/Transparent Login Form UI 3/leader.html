@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+  <link rel="stylesheet" href="leader.css">
+</head>
+
+<body>
+  <a href="/MOUNTAINS/mount.html">let us see mountains</a>
+  <div class="l-wrapper">
+  
+    <div class="l-grid">
+      <div class="l-grid__item l-grid__item--sticky">
+        <div class="c-card u-bg--light-gradient u-text--dark">
+          <div class="c-card__body">
+            <div class="u-display--flex u-justify--space-between">
+              <div class="u-text--left">
+                <div class="u-text--small">My Rank</div>
+                <h2>3rd Place</h2>
+              </div>
+              <div class="u-text--right">
+                <div class="u-text--small">My Score</div>
+                <h2>24</h2>
+              </div>
+              <div class="c-header"><img class="c-logo" src="WhatsApp_Image_2022-09-18_at_10 (2).png" draggable="false">
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="c-card">
+          <div class="c-card__body">
+            <div class="u-text--center" id="winner"></div>
+          </div>
+        </div>
+      </div>
+      <div class="l-grid__item">
+        <div class="c-card">
+          <div class="c-card__header">
+            <h3>Received Kudos</h3>
+            <select class="c-select">
+              <option selected="selected">Sunday, Sep. 23 - Sunday, Sep. 30</option>
+            </select>
+          </div>
+          <div class="c-card__body">
+            <ul class="c-list" id="list">
+              <li class="c-list__item">
+                <div class="c-list__grid">
+                  <div class="u-text--left u-text--small u-text--medium">Rank</div>
+                  <div class="u-text--left u-text--small u-text--medium">Player</div>
+                  <div class="u-text--right u-text--small u-text--medium">Mode</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="lb.js"></script>
+
+</body>
+
+</html>
