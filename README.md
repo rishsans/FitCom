@@ -10,7 +10,7 @@
 Sdg13, SDG 3, and SDG 11
 </p>
 
-<h2> How we came up with this </h2>
+<h2> How we came up with this? </h2>
 <p id="description">
 We came up with this because in Delhi, traffic congestion was a huge issue and because of the air pollution due to that we weren't able to commute outside especially in Nov. So why not solve this issue with the help of twist that is by making a game and diverting the traffic towards greener commute.
 To solve this grave issue we ve introduced Fitcom which stands for Fit Indigenous Travel community.
@@ -20,7 +20,7 @@ It's a  web app that keeps you enthralled while you commute by gamifying your jo
 </p> 
   
 <h2>🧐 Features</h2>
-<img align="right" width="200" height="200" src="https://www.linkpicture.com/q/logo_560.png">
+<img align="right" width="230" height="230" src="https://www.linkpicture.com/q/logo_560.png">
 
 
 Here're some of the project's best features:
@@ -34,7 +34,13 @@ Here're some of the project's best features:
 *  Rewards
 
   
-  
+ <h2>🚀 Demo</h2>
+
+
+https://user-images.githubusercontent.com/98217912/218312483-8925acd7-513c-4e21-8e47-4ec75fbc5a91.mp4
+
+ 
+ 
 <h2>💻 Built with</h2>
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
@@ -50,16 +56,9 @@ Technologies used in the project:
 *   Tailwind CSS
 *   
 
-<h2>🚀 Demo</h2>
-
-[https://www.loom.com/share/5f659ab600be426899434c552fe52e97](https://www.loom.com/share/5f659ab600be426899434c552fe52e97)
-
 
 
 
 <h3>📫 How to reach us? fitcom021@gmail.com </h3>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.youtube.com/c/https://www.youtube.com/@ebuddy1798/featured" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/@ebuddy1798/featured" height="30" width="40" /></a>
-</p>
+
