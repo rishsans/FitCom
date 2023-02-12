@@ -127,10 +127,14 @@ svg {
   text-align:center;
 }
 .btn {
-  padding:8px;
-  font-weight:bold;
-  margin-bottom:7px;
+  border: 2px solid black;
+  background-color: rgb(241, 75, 75);
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
 }
+
 #menu_list div {
   width:100%;
   cursor:pointer;
@@ -138,4 +142,12 @@ svg {
   font-size:19px;
   font-weight:bold;
   color:#707070;
+}
+
+.text--center {
+  text-align: left;
+}
+
+.text-center {
+  text-align: right;
 }
