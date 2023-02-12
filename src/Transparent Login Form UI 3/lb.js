@@ -10,7 +10,7 @@ const team = [
 		img:
 			"https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1255/2020/05/18091119/avatar.jpg",
 		kudos: 36,
-		sent: 31
+        sent:31
 	},
 	{
 		rank: 2,
@@ -19,7 +19,7 @@ const team = [
 		img:
 			"https://mybluerobot.com/wp-content/plugins/svg-avatars-generator/data/custom-img/girl.png",
 		kudos: 31,
-		sent: 21
+        sent: 21
 	},
 	{
 		rank: 3,
@@ -96,7 +96,7 @@ const team = [
 ];
 
 const randomEmoji = () => {
-	const emojis = ["🚶🏻", "🚴🏻‍♂️", "🚌"];
+	const emojis = ["  🚶🏻", " 🚴🏻‍♂️", " 🚌"];
 	let randomNumber = Math.floor(Math.random() * emojis.length);
 	return emojis[randomNumber];
 };
@@ -117,7 +117,7 @@ team.forEach((member) => {
 			</div>
 			<div class="u-text--right c-kudos">
 				<div class="u-mt--8">
-					<strong>${member.kudos}</strong> ${randomEmoji()}
+					<strong>${member.kudos}</strong>${randomEmoji()}
 				</div>
 			</div>
 		</div>
