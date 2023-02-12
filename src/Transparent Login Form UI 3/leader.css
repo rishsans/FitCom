@@ -39,8 +39,9 @@ html {
   body {
     background: var(--bg);
     color: var(--color);
-    font-size: 1.6rem;
-    font-family: "Overpass Mono", system-ui;
+    font-size: 2rem;
+    font-family: "Canva Sans", system-ui;
+    font-weight: 400 ;
   }
   
   h1,
@@ -49,12 +50,13 @@ html {
   h4,
   h5,
   h6 {
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
-    font-family: "Oswald", system-ui;
+    font-family: "Oswald", sans-serif;
+
   }
   
   a {
@@ -373,11 +375,13 @@ html {
   }
   
   .u-text--title {
-    font-family: "Oswald", system-ui;
+    font-family: "Oswald", sans-serif;
+    
   }
   
   .u-text--left {
     text-align: left;
+    
   }
   
   .u-text--center {
