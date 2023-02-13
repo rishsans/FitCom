@@ -1,4 +1,4 @@
-# FITCOM-finale
+# FITCOM
 
 <h1 align="center" id="title">FitCom</h1>
 
