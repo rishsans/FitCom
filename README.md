@@ -2,6 +2,9 @@
 
 <h1 align="center" id="title">FitCom</h1>
 
+<p align="center"><img src="https://socialify.git.ci/rishsans/FitCom-LeanInHacks/image?description=1&descriptionEditable=Travel%20smarter%20with%20reduced%20carbon%20footprint%20with%20Team%20Archaeopteryx%0A%0ASay%20Yes%20to%20Clean%20Skies%2C%20No%20to%20Polluted%20Lies.&font=Inter&logo=https%3A%2F%2Fi0.wp.com%2Fifapa.net%2Fwp-content%2Fuploads%2F2019%2F10%2Fsdgwheel1.jpg%3Ffit%3D535%252C534%26ssl%3D1&name=1&pattern=Solid&theme=Dark" alt="project-image"></p>
+
+
 <h2> Our Problem Statement </h2>
 <p id="description">
  Our idea is based on the problem statement of “commuting smarter with reduced carbon footprint and better user experience”. We are focussing on enriching travel experiences and reducing carbon emissions released from road transportation by gamifying the journey of daily commuters. Our app wants to motivate people who tend to use personal conveyance to switch to public means of transport. Just Imagine the time, energy, money, and lives we can save just by diverting people to public transport. Our app will also achieve sustainable development goals.
