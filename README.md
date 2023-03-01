@@ -2,7 +2,7 @@
 
 <h1 align="center" id="title">FitCom</h1>
 
-<p align="center"><img src="https://socialify.git.ci/rishsans/FitCom/image?description=1&descriptionEditable=Travel%20smarter%20with%20reduced%20carbon%20footprint%20with%20Team%20Interstell%20-her%0A%0A%0A%0A%20Say%20Yes%20to%20Clean%20Skies%2C%20No%20to%20Polluted%20Lies.&font=Inter&logo=https%3A%2F%2Fi0.wp.com%2Fifapa.net%2Fwp-content%2Fuploads%2F2019%2F10%2Fsdgwheel1.jpg%3Ffit%3D535%252C534%26ssl%3D1&name=1&pattern=Solid&theme=Dark" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/rishsans/FitCom-LeanInHacks/image?description=1&descriptionEditable=Travel%20smarter%20with%20reduced%20carbon%20footprint%20with%20Team%20Interstell%20-her%0A%0A%0A%0A%20Say%20Yes%20to%20Clean%20Skies%2C%20No%20to%20Polluted%20Lies.&font=Inter&logo=https%3A%2F%2Fi0.wp.com%2Fifapa.net%2Fwp-content%2Fuploads%2F2019%2F10%2Fsdgwheel1.jpg%3Ffit%3D535%252C534%26ssl%3D1&name=1&pattern=Solid&theme=Dark" alt="project-image"></p>
 
 
 <h2> Our Problem Statement </h2>
