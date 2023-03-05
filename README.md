@@ -42,7 +42,6 @@ Here're some of the project's best features:
 https://user-images.githubusercontent.com/98217912/218312483-8925acd7-513c-4e21-8e47-4ec75fbc5a91.mp4
 
  
- 
 <h2>💻 Built with</h2>
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
@@ -57,6 +56,14 @@ Technologies used in the project:
 *   webpack
 *   Tailwind CSS
  
+<details>
+  <summary>The title of the image group</summary><details>
+  <img src="https://drive.google.com/file/d/1f5Er1HZhGe0LJtFWeKcV5us2LMhmdHvh/view?usp=share_link" name="image-name1">
+  <img src="https://drive.google.com/file/d/1_mYCd-48i1IQOI_7-Hx9CD85HO1MSF6k/view?usp=share_link" name="image-name2">
+  <img src="https://drive.google.com/file/d/1tOf8MsWTvcLUDnYwMHrngNhCfuk0AY67/view?usp=share_link" name="image-name3">
+</details>
+
+  
 
 
 
