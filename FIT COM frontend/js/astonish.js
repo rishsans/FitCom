@@ -1,7 +1,6 @@
 /*
-Created on: 6/1/17
+
 Name: astonish.js
-By: Jesus Rodriguez
 Description: A light and simple framework to reveal animations from the
 animate.css library.
 */
