@@ -57,11 +57,14 @@ Technologies used in the project:
 *   Tailwind CSS
  
 <details>
-  <summary>The title of the image group</summary><details>
+  <summary>
+   <h2>Screenshots</h2>
+  </summary>
+
   <img src="https://drive.google.com/file/d/1f5Er1HZhGe0LJtFWeKcV5us2LMhmdHvh/view?usp=share_link" name="image-name1">
   <img src="https://drive.google.com/file/d/1_mYCd-48i1IQOI_7-Hx9CD85HO1MSF6k/view?usp=share_link" name="image-name2">
   <img src="https://drive.google.com/file/d/1tOf8MsWTvcLUDnYwMHrngNhCfuk0AY67/view?usp=share_link" name="image-name3">
-</details>
+
 
   
 
